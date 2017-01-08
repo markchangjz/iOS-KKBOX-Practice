@@ -135,6 +135,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04E6BED217E6D39E005499A8 = {
+						DevelopmentTeam = Y53W55T72H;
+					};
+				};
 			};
 			buildConfigurationList = 04E6BECE17E6D39E005499A8 /* Build configuration list for PBXProject "calc" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -258,9 +263,11 @@
 		04E6BEF717E6D39E005499A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Y53W55T72H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "calc/calc-Prefix.pch";
 				INFOPLIST_FILE = "calc/calc-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.markchang.calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -269,9 +276,11 @@
 		04E6BEF817E6D39E005499A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Y53W55T72H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "calc/calc-Prefix.pch";
 				INFOPLIST_FILE = "calc/calc-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.markchang.calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +305,7 @@
 				04E6BEF817E6D39E005499A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
