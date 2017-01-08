@@ -10,5 +10,5 @@
 *.swp
 *.gcno
 *.gcda
-xcuserdata
+*.xcuserdata
 .DS_Store
