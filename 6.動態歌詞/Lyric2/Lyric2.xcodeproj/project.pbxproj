@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042625FF180E5E2E009F5F74 /* lyricsForUnitTest.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 042625FE180E5E2E009F5F74 /* lyricsForUnitTest.lrc */; };
+		043729E4180B8C97005F398C /* MKLyricsScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043729E3180B8C97005F398C /* MKLyricsScrollView.m */; };
+		044F8DB0180D0CE100A3C900 /* MKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F8DAE180D0CE100A3C900 /* MKMainViewController.m */; };
+		044F8DB1180D0CE100A3C900 /* MKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044F8DAF180D0CE100A3C900 /* MKMainViewController.xib */; };
+		0453610D17FD4F1E004E77E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0453610C17FD4F1E004E77E1 /* UIKit.framework */; };
+		0453610F17FD4F1E004E77E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0453610E17FD4F1E004E77E1 /* Foundation.framework */; };
+		0453611117FD4F1E004E77E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0453611017FD4F1E004E77E1 /* CoreGraphics.framework */; };
+		0453611717FD4F1E004E77E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0453611517FD4F1E004E77E1 /* InfoPlist.strings */; };
+		0453611917FD4F1E004E77E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453611817FD4F1E004E77E1 /* main.m */; };
+		0453611D17FD4F1E004E77E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453611C17FD4F1E004E77E1 /* AppDelegate.m */; };
+		0453611F17FD4F1E004E77E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0453611E17FD4F1E004E77E1 /* Default.png */; };
+		0453612117FD4F1E004E77E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0453612017FD4F1E004E77E1 /* Default@2x.png */; };
+		0453612317FD4F1E004E77E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0453612217FD4F1E004E77E1 /* Default-568h@2x.png */; };
+		0453612617FD4F1E004E77E1 /* MKLyricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453612517FD4F1E004E77E1 /* MKLyricsViewController.m */; };
+		0453612917FD4F1E004E77E1 /* MKLyricsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453612717FD4F1E004E77E1 /* MKLyricsViewController.xib */; };
+		0453613117FD4F1E004E77E1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0453613017FD4F1E004E77E1 /* SenTestingKit.framework */; };
+		0453613217FD4F1E004E77E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0453610C17FD4F1E004E77E1 /* UIKit.framework */; };
+		0453613317FD4F1E004E77E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0453610E17FD4F1E004E77E1 /* Foundation.framework */; };
+		0453613B17FD4F1E004E77E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0453613917FD4F1E004E77E1 /* InfoPlist.strings */; };
+		0453613E17FD4F1E004E77E1 /* LyricsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453613D17FD4F1E004E77E1 /* LyricsTests.m */; };
+		0453614E17FD5470004E77E1 /* MKLyricsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453614D17FD5470004E77E1 /* MKLyricsParser.m */; };
+		0453615017FD54C6004E77E1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0453614F17FD54C6004E77E1 /* QuartzCore.framework */; };
+		046B2446180F953C00F61B30 /* LyricsPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046B2445180F953C00F61B30 /* LyricsPlayTests.m */; };
+		046B2448180F974C00F61B30 /* lyrics.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 046B2447180F974C00F61B30 /* lyrics.lrc */; };
+		04AB5E9E18150CFF004A0C3A /* MKMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5E9D18150CFF004A0C3A /* MKMainViewController_iPad.xib */; };
+		04AB5EA018154019004A0C3A /* MKLyricsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB5E9F18154019004A0C3A /* MKLyricsViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0453613417FD4F1E004E77E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0453610117FD4F1E004E77E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0453610817FD4F1E004E77E1;
+			remoteInfo = Lyric2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042625FE180E5E2E009F5F74 /* lyricsForUnitTest.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = lyricsForUnitTest.lrc; path = ../Lyric2/lyricsForUnitTest.lrc; sourceTree = "<group>"; };
+		043729E2180B8C97005F398C /* MKLyricsScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLyricsScrollView.h; sourceTree = "<group>"; };
+		043729E3180B8C97005F398C /* MKLyricsScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLyricsScrollView.m; sourceTree = "<group>"; };
+		043729E5180BE8CC005F398C /* SYSTEM_INFO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSTEM_INFO.h; sourceTree = "<group>"; };
+		044F8DAD180D0CE100A3C900 /* MKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMainViewController.h; sourceTree = "<group>"; };
+		044F8DAE180D0CE100A3C900 /* MKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMainViewController.m; sourceTree = "<group>"; };
+		044F8DAF180D0CE100A3C900 /* MKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKMainViewController.xib; sourceTree = "<group>"; };
+		0453610917FD4F1E004E77E1 /* Lyric2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyric2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0453610C17FD4F1E004E77E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0453610E17FD4F1E004E77E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0453611017FD4F1E004E77E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0453611417FD4F1E004E77E1 /* Lyric2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyric2-Info.plist"; sourceTree = "<group>"; };
+		0453611617FD4F1E004E77E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0453611817FD4F1E004E77E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0453611A17FD4F1E004E77E1 /* Lyric2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lyric2-Prefix.pch"; sourceTree = "<group>"; };
+		0453611B17FD4F1E004E77E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0453611C17FD4F1E004E77E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0453611E17FD4F1E004E77E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0453612017FD4F1E004E77E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0453612217FD4F1E004E77E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0453612417FD4F1E004E77E1 /* MKLyricsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKLyricsViewController.h; sourceTree = "<group>"; };
+		0453612517FD4F1E004E77E1 /* MKLyricsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKLyricsViewController.m; sourceTree = "<group>"; };
+		0453612817FD4F1E004E77E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKLyricsViewController.xib; sourceTree = "<group>"; };
+		0453612F17FD4F1E004E77E1 /* Lyric2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lyric2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0453613017FD4F1E004E77E1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0453613817FD4F1E004E77E1 /* Lyric2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lyric2Tests-Info.plist"; sourceTree = "<group>"; };
+		0453613A17FD4F1E004E77E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0453613C17FD4F1E004E77E1 /* LyricsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyricsTests.h; sourceTree = "<group>"; };
+		0453613D17FD4F1E004E77E1 /* LyricsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyricsTests.m; sourceTree = "<group>"; };
+		0453614C17FD5470004E77E1 /* MKLyricsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLyricsParser.h; sourceTree = "<group>"; };
+		0453614D17FD5470004E77E1 /* MKLyricsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLyricsParser.m; sourceTree = "<group>"; };
+		0453614F17FD54C6004E77E1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		046B2444180F953C00F61B30 /* LyricsPlayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsPlayTests.h; sourceTree = "<group>"; };
+		046B2445180F953C00F61B30 /* LyricsPlayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsPlayTests.m; sourceTree = "<group>"; };
+		046B2447180F974C00F61B30 /* lyrics.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lyrics.lrc; sourceTree = "<group>"; };
+		04AB5E9D18150CFF004A0C3A /* MKMainViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKMainViewController_iPad.xib; sourceTree = "<group>"; };
+		04AB5E9F18154019004A0C3A /* MKLyricsViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKLyricsViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0453610617FD4F1E004E77E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453615017FD54C6004E77E1 /* QuartzCore.framework in Frameworks */,
+				0453610D17FD4F1E004E77E1 /* UIKit.framework in Frameworks */,
+				0453610F17FD4F1E004E77E1 /* Foundation.framework in Frameworks */,
+				0453611117FD4F1E004E77E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453612B17FD4F1E004E77E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453613117FD4F1E004E77E1 /* SenTestingKit.framework in Frameworks */,
+				0453613217FD4F1E004E77E1 /* UIKit.framework in Frameworks */,
+				0453613317FD4F1E004E77E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0453610017FD4F1E004E77E1 = {
+			isa = PBXGroup;
+			children = (
+				0453611217FD4F1E004E77E1 /* Lyric2 */,
+				0453613617FD4F1E004E77E1 /* Lyric2Tests */,
+				0453610B17FD4F1E004E77E1 /* Frameworks */,
+				0453610A17FD4F1E004E77E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0453610A17FD4F1E004E77E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0453610917FD4F1E004E77E1 /* Lyric2.app */,
+				0453612F17FD4F1E004E77E1 /* Lyric2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0453610B17FD4F1E004E77E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0453614F17FD54C6004E77E1 /* QuartzCore.framework */,
+				0453610C17FD4F1E004E77E1 /* UIKit.framework */,
+				0453610E17FD4F1E004E77E1 /* Foundation.framework */,
+				0453611017FD4F1E004E77E1 /* CoreGraphics.framework */,
+				0453613017FD4F1E004E77E1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0453611217FD4F1E004E77E1 /* Lyric2 */ = {
+			isa = PBXGroup;
+			children = (
+				0453611B17FD4F1E004E77E1 /* AppDelegate.h */,
+				0453611C17FD4F1E004E77E1 /* AppDelegate.m */,
+				044F8DAD180D0CE100A3C900 /* MKMainViewController.h */,
+				044F8DAE180D0CE100A3C900 /* MKMainViewController.m */,
+				044F8DAF180D0CE100A3C900 /* MKMainViewController.xib */,
+				04AB5E9D18150CFF004A0C3A /* MKMainViewController_iPad.xib */,
+				0453612417FD4F1E004E77E1 /* MKLyricsViewController.h */,
+				0453612517FD4F1E004E77E1 /* MKLyricsViewController.m */,
+				0453612717FD4F1E004E77E1 /* MKLyricsViewController.xib */,
+				04AB5E9F18154019004A0C3A /* MKLyricsViewController_iPad.xib */,
+				0453614C17FD5470004E77E1 /* MKLyricsParser.h */,
+				0453614D17FD5470004E77E1 /* MKLyricsParser.m */,
+				043729E2180B8C97005F398C /* MKLyricsScrollView.h */,
+				043729E3180B8C97005F398C /* MKLyricsScrollView.m */,
+				043729E5180BE8CC005F398C /* SYSTEM_INFO.h */,
+				046B2447180F974C00F61B30 /* lyrics.lrc */,
+				0453611317FD4F1E004E77E1 /* Supporting Files */,
+			);
+			path = Lyric2;
+			sourceTree = "<group>";
+		};
+		0453611317FD4F1E004E77E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0453611417FD4F1E004E77E1 /* Lyric2-Info.plist */,
+				0453611517FD4F1E004E77E1 /* InfoPlist.strings */,
+				0453611817FD4F1E004E77E1 /* main.m */,
+				0453611A17FD4F1E004E77E1 /* Lyric2-Prefix.pch */,
+				0453611E17FD4F1E004E77E1 /* Default.png */,
+				0453612017FD4F1E004E77E1 /* Default@2x.png */,
+				0453612217FD4F1E004E77E1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0453613617FD4F1E004E77E1 /* Lyric2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0453613C17FD4F1E004E77E1 /* LyricsTests.h */,
+				0453613D17FD4F1E004E77E1 /* LyricsTests.m */,
+				046B2444180F953C00F61B30 /* LyricsPlayTests.h */,
+				046B2445180F953C00F61B30 /* LyricsPlayTests.m */,
+				042625FE180E5E2E009F5F74 /* lyricsForUnitTest.lrc */,
+				0453613717FD4F1E004E77E1 /* Supporting Files */,
+			);
+			path = Lyric2Tests;
+			sourceTree = "<group>";
+		};
+		0453613717FD4F1E004E77E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0453613817FD4F1E004E77E1 /* Lyric2Tests-Info.plist */,
+				0453613917FD4F1E004E77E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0453610817FD4F1E004E77E1 /* Lyric2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0453614117FD4F1E004E77E1 /* Build configuration list for PBXNativeTarget "Lyric2" */;
+			buildPhases = (
+				0453610517FD4F1E004E77E1 /* Sources */,
+				0453610617FD4F1E004E77E1 /* Frameworks */,
+				0453610717FD4F1E004E77E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyric2;
+			productName = Lyric2;
+			productReference = 0453610917FD4F1E004E77E1 /* Lyric2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0453612E17FD4F1E004E77E1 /* Lyric2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0453614417FD4F1E004E77E1 /* Build configuration list for PBXNativeTarget "Lyric2Tests" */;
+			buildPhases = (
+				0453612A17FD4F1E004E77E1 /* Sources */,
+				0453612B17FD4F1E004E77E1 /* Frameworks */,
+				0453612C17FD4F1E004E77E1 /* Resources */,
+				0453612D17FD4F1E004E77E1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0453613517FD4F1E004E77E1 /* PBXTargetDependency */,
+			);
+			name = Lyric2Tests;
+			productName = Lyric2Tests;
+			productReference = 0453612F17FD4F1E004E77E1 /* Lyric2Tests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0453610117FD4F1E004E77E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0700;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = KKBOX;
+				TargetAttributes = {
+					0453610817FD4F1E004E77E1 = {
+						DevelopmentTeam = 4WENRUW4XJ;
+					};
+				};
+			};
+			buildConfigurationList = 0453610417FD4F1E004E77E1 /* Build configuration list for PBXProject "Lyric2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0453610017FD4F1E004E77E1;
+			productRefGroup = 0453610A17FD4F1E004E77E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0453610817FD4F1E004E77E1 /* Lyric2 */,
+				0453612E17FD4F1E004E77E1 /* Lyric2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0453610717FD4F1E004E77E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453611717FD4F1E004E77E1 /* InfoPlist.strings in Resources */,
+				0453611F17FD4F1E004E77E1 /* Default.png in Resources */,
+				0453612117FD4F1E004E77E1 /* Default@2x.png in Resources */,
+				0453612317FD4F1E004E77E1 /* Default-568h@2x.png in Resources */,
+				0453612917FD4F1E004E77E1 /* MKLyricsViewController.xib in Resources */,
+				044F8DB1180D0CE100A3C900 /* MKMainViewController.xib in Resources */,
+				042625FF180E5E2E009F5F74 /* lyricsForUnitTest.lrc in Resources */,
+				046B2448180F974C00F61B30 /* lyrics.lrc in Resources */,
+				04AB5E9E18150CFF004A0C3A /* MKMainViewController_iPad.xib in Resources */,
+				04AB5EA018154019004A0C3A /* MKLyricsViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453612C17FD4F1E004E77E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453613B17FD4F1E004E77E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0453612D17FD4F1E004E77E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0453610517FD4F1E004E77E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453611917FD4F1E004E77E1 /* main.m in Sources */,
+				0453611D17FD4F1E004E77E1 /* AppDelegate.m in Sources */,
+				0453612617FD4F1E004E77E1 /* MKLyricsViewController.m in Sources */,
+				0453614E17FD5470004E77E1 /* MKLyricsParser.m in Sources */,
+				043729E4180B8C97005F398C /* MKLyricsScrollView.m in Sources */,
+				044F8DB0180D0CE100A3C900 /* MKMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453612A17FD4F1E004E77E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453613E17FD4F1E004E77E1 /* LyricsTests.m in Sources */,
+				046B2446180F953C00F61B30 /* LyricsPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0453613517FD4F1E004E77E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0453610817FD4F1E004E77E1 /* Lyric2 */;
+			targetProxy = 0453613417FD4F1E004E77E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0453611517FD4F1E004E77E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0453611617FD4F1E004E77E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0453612717FD4F1E004E77E1 /* MKLyricsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0453612817FD4F1E004E77E1 /* en */,
+			);
+			name = MKLyricsViewController.xib;
+			sourceTree = "<group>";
+		};
+		0453613917FD4F1E004E77E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0453613A17FD4F1E004E77E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0453613F17FD4F1E004E77E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0453614017FD4F1E004E77E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0453614217FD4F1E004E77E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyric2/Lyric2-Prefix.pch";
+				INFOPLIST_FILE = "Lyric2/Lyric2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0453614317FD4F1E004E77E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyric2/Lyric2-Prefix.pch";
+				INFOPLIST_FILE = "Lyric2/Lyric2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0453614517FD4F1E004E77E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lyric2.app/Lyric2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyric2/Lyric2-Prefix.pch";
+				INFOPLIST_FILE = "Lyric2Tests/Lyric2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0453614617FD4F1E004E77E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lyric2.app/Lyric2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lyric2/Lyric2-Prefix.pch";
+				INFOPLIST_FILE = "Lyric2Tests/Lyric2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0453610417FD4F1E004E77E1 /* Build configuration list for PBXProject "Lyric2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453613F17FD4F1E004E77E1 /* Debug */,
+				0453614017FD4F1E004E77E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0453614117FD4F1E004E77E1 /* Build configuration list for PBXNativeTarget "Lyric2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453614217FD4F1E004E77E1 /* Debug */,
+				0453614317FD4F1E004E77E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0453614417FD4F1E004E77E1 /* Build configuration list for PBXNativeTarget "Lyric2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453614517FD4F1E004E77E1 /* Debug */,
+				0453614617FD4F1E004E77E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0453610117FD4F1E004E77E1 /* Project object */;
+}

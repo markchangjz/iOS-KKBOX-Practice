@@ -1,0 +1,5 @@
+1. 所有的格子都是使用 Quartz 2D 畫的
+2. 文字可以使用 NSString drawInRect... 繪製
+3. 其實整個畫面只需要用到一個 UITextField 而已
+4. 收到鍵盤升起與下降的 notification 需要特別處理
+5. 點到某個格子開始打字，則可以使用 UITapGestureRecognizer
