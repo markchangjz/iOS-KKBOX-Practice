@@ -10,8 +10,8 @@
 
 @interface ViewController ()
 {
-    BOOL isTapNumber;
-    BOOL isTapOperator;
+    BOOL isTappedNumber;
+    BOOL isTappedOperator;
     NSString *currentOperator;
 }
 
@@ -47,14 +47,12 @@
 - (void)resetConfig
 {
     self.calcNum1 = [NSDecimalNumber decimalNumberWithString:@"0"];
-    isTapNumber = NO;
-    isTapOperator = NO;
+    isTappedNumber = NO;
+    isTappedOperator = NO;
     currentOperator = @"";
-    
-
 }
 
-- (void)doCalculation
+- (void)doCalculate
 {
     if ([currentOperator isEqualToString:@""]) {
         return;
@@ -97,25 +95,25 @@
 - (IBAction)tapDigits:(UIButton *)sender
 {
     // 使用者按.變成0.
-    if ([[sender currentTitle] isEqualToString:@"."] && isTapOperator) {
+    if ([[sender currentTitle] isEqualToString:@"."] && isTappedOperator) {
         self.displayLabel.text = @"0.";
     }
     
-    if (!isTapNumber) {
+    if (!isTappedNumber) {
         if ([[sender currentTitle] isEqualToString:@"."]) {
             // 檢查字串是否包含小數點
             if ([self.displayLabel.text rangeOfString:@"."].location == NSNotFound) {
                 self.displayLabel.text = [self.displayLabel.text stringByAppendingString:@"."];
             }
 
-            isTapNumber = YES;
+            isTappedNumber = YES;
         }
         else if ([[sender currentTitle] isEqualToString:@"0"]) {
             self.displayLabel.text = @"0";
         }
         else {
             self.displayLabel.text = [sender currentTitle];
-            isTapNumber = YES;
+            isTappedNumber = YES;
         }
     }
     else {
@@ -128,7 +126,7 @@
         self.displayLabel.text = [self.displayLabel.text stringByAppendingString:[sender currentTitle]];
     }
     
-    isTapOperator = NO;
+    isTappedOperator = NO;
 }
 
 - (IBAction)tapClear:(UIButton *)sender
@@ -139,14 +137,14 @@
 
 - (IBAction)tapOperators:(UIButton *)sender
 {
-    if (isTapOperator) {
+    if (isTappedOperator) {
         // 使用者更改計算
         currentOperator = [sender currentTitle];
         return;
     }
     
     if (![currentOperator isEqualToString:@""]) {
-        [self doCalculation];
+        [self doCalculate];
     }
     else {
         self.calcNum1 = [NSDecimalNumber decimalNumberWithString:self.displayLabel.text];
@@ -158,13 +156,13 @@
     
     currentOperator = [[sender currentTitle] retain];
     
-    isTapNumber = NO;
-    isTapOperator = YES;
+    isTappedNumber = NO;
+    isTappedOperator = YES;
 }
 
 - (IBAction)tapEqualSign:(UIButton *)sender
 {    
-    [self doCalculation];
+    [self doCalculate];
 }
 
 @end

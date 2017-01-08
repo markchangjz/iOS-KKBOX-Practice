@@ -10,7 +10,6 @@
 
 @interface ViewController : UIViewController
 
-
 @property (retain, nonatomic) IBOutlet UILabel *displayLabel;
 
 - (IBAction)tapDigits:(UIButton *)sender;
