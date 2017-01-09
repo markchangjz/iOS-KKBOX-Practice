@@ -96,14 +96,14 @@ static const NSTimeInterval kRefreshInterval = 0.25;
 {
     NSUInteger minutes = floor(duration / 60);
     NSUInteger seconds = round(duration - minutes * 60);
-    return [NSString stringWithFormat:@"%d:%02d", minutes, seconds];
+    return [NSString stringWithFormat:@"%lu:%02lu", (unsigned long)minutes, (unsigned long)seconds];
 }
 
 - (NSString *)_formattedAccessibilityStringForDuration:(NSTimeInterval)duration
 {
     NSUInteger minutes = floor(duration / 60);
     NSUInteger seconds = round(duration - minutes * 60);
-    return [NSString stringWithFormat:@"%d分%d秒", minutes, seconds];
+    return [NSString stringWithFormat:@"%lu分%lu秒", (unsigned long)minutes, (unsigned long)seconds];
 }
 
 - (void)_startLyricsRefreshTimer
