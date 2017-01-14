@@ -27,16 +27,18 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)dealloc {
+- (void)dealloc
+{
     [_enterTextField release];
     [_reverseTextLabel release];
     [super dealloc];
 }
+
 - (IBAction)tapReverseButton:(UIButton *)sender
 {
     NSString *oriString = self.enterTextField.text;
     
 //    self.reverseTextLabel.text = [oriString reverseStr];
-    self.reverseTextLabel.text = [oriString reverseString];
+    self.reverseTextLabel.text = [oriString reversedString];
 }
 @end

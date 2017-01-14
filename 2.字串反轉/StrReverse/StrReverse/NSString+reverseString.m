@@ -14,7 +14,7 @@
 {
     NSString *revStr = @"";
     
-    for (int i = self.length - 1; i >= 0 ; i--) {
+    for (int i = (int)self.length - 1; i >= 0 ; i--) {
         NSString *substring = [self substringWithRange:NSMakeRange(i, 1)];
         revStr = [revStr stringByAppendingString:substring];
     }
@@ -22,17 +22,15 @@
     return revStr;
 }
 
-- (NSString *)reverseString
+- (NSString *)reversedString
 {
     NSMutableString *s = [NSMutableString string];
     
-    for (int i = self.length - 1; i >= 0 ; i--) {
+    for (int i = (int)self.length - 1; i >= 0 ; i--) {
         [s appendFormat:@"%C", [self characterAtIndex:i]];
     }
     
     return s;
 }
-
-
 
 @end

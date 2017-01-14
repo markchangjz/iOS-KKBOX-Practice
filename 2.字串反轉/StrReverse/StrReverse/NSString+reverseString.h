@@ -10,7 +10,7 @@
 
 @interface NSString (reverseString)
 
-- (NSString *) reverseStr;
-- (NSString *)reverseString;
+- (NSString *)reverseStr;
+- (NSString *)reversedString;
 
 @end

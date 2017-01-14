@@ -40,28 +40,28 @@
 {
     NSString *s = @"中文呢？";
     NSString *r = [s reverseString];
-    STAssertTrue([r isEqualToString:@"？呢文中"] , @"It should be hsilgnE");
+    STAssertTrue([r isEqualToString:@"？呢文中"] , @"It should be ？呢文中");
 }
 
 - (void)testSomething
 {
     NSString *s = @"\t\a\t\a";
     NSString *r = [s reverseString];
-    STAssertTrue([r isEqualToString:@"\a\t\a\t"] , @"It should be hsilgnE");    
+    STAssertTrue([r isEqualToString:@"\a\t\a\t"] , @"It should be \a\t\a\t");
 }
 
 - (void)testEmpty
 {
     NSString *s = @"";
     NSString *r = [s reverseString];
-    STAssertTrue([r isEqualToString:@""] , @"It should be hsilgnE");
+    STAssertTrue([r isEqualToString:@""] , @"It should be """);
 }
 
 - (void)testA
 {
     NSString *s = @"A";
     NSString *r = [s reverseString];
-    STAssertTrue([r isEqualToString:@"A"] , @"It should be hsilgnE");
+    STAssertTrue([r isEqualToString:@"A"] , @"It should be A");
 }
 
 
