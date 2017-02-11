@@ -251,7 +251,7 @@
 				ORGANIZATIONNAME = KKBOX;
 				TargetAttributes = {
 					0453610817FD4F1E004E77E1 = {
-						DevelopmentTeam = 4WENRUW4XJ;
+						DevelopmentTeam = Y53W55T72H;
 					};
 				};
 			};
@@ -458,6 +458,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y53W55T72H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lyric2/Lyric2-Prefix.pch";
 				INFOPLIST_FILE = "Lyric2/Lyric2-Info.plist";
@@ -475,6 +476,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y53W55T72H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lyric2/Lyric2-Prefix.pch";
 				INFOPLIST_FILE = "Lyric2/Lyric2-Info.plist";
